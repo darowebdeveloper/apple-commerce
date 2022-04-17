@@ -17,7 +17,7 @@ class SlideShow {
 
       i === 1 && div.classList.add('opacity-100');
 
-      div.style.backgroundImage = `url(images/slideshow/section-1-bg-${i}.jpg)`;
+      div.style.backgroundImage = `url(section-1-bg-${i}.jpg)`;
       this.slides.push(div);
       this.container.appendChild(div);
     }
